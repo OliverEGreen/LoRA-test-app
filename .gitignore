@@ -11,9 +11,10 @@ venv/
 # macOS
 .DS_Store
 
-# Project — local-only directories
+# Project — local-only directories (kept off GitHub)
 _Generated Outputs/
 _Safetensor Weights/
+Training Data/
 
 # LoRA weights — distributed via the HF Space, not GitHub
 *.safetensors

@@ -21,7 +21,6 @@ End-to-end pipeline for training and serving custom Flux.1-dev style LoRAs. Host
 .
 ├── README.md             — this file
 ├── LICENSE               — MIT
-├── Training Data/        — 29 captioned images for the Kodachrome LoRA (.jpg + .txt pairs)
 └── space/                — the deployable Gradio app
     ├── app.py            — entry point
     ├── config.py         — LoRA registry + defaults
@@ -34,7 +33,7 @@ End-to-end pipeline for training and serving custom Flux.1-dev style LoRAs. Host
     └── README.md         — Space-side README (rendered on the HF Space page)
 ```
 
-The Akira training data and `.safetensors` weights live in sister directories on disk but aren't checked in — weights are distributed via the HF Space.
+Training datasets and `.safetensors` weights are kept out of the repo — weights are distributed via the HF Space, and training data is only useful in the original training run.
 
 ## Try it
 
