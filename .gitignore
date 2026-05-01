@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Project — local-only directories
+_Generated Outputs/
+_Safetensor Weights/
+
+# LoRA weights — distributed via the HF Space, not GitHub
+*.safetensors

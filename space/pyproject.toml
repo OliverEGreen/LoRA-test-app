@@ -1,0 +1,30 @@
+[project]
+name = "flux-style-loras-space"
+version = "0.1.0"
+description = "Gradio app for Flux.1-dev LoRA inference via fal.ai"
+requires-python = ">=3.10"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.7.0",
+    "pytest>=8.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # bugbear
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
