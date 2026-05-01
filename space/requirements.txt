@@ -1,4 +1,5 @@
-gradio>=5.0,<6.0
+# gradio is injected by HF Spaces based on `sdk: gradio` in README.md frontmatter.
+# Do not pin it here — HF will fail the build if our pin conflicts with theirs.
 fal-client>=0.5,<1.0
 pillow>=10.0,<12.0
 requests>=2.31,<3.0
