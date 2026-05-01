@@ -6,7 +6,7 @@ End-to-end pipeline for training and serving custom Flux.1-dev style LoRAs. Host
 - **Akira (anime cityscape)** — hand-painted cel-animation backgrounds in the style of Akira (dense Neo-Tokyo cityscapes, gouache rendering, restrained earth-tone palette).
 
 > _Replace this with a link to the deployed Space:_  
-> [![Open in Spaces](https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/YOUR_USERNAME/SPACE_NAME)
+> [![Open in Spaces](https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/OllieEGreen/LoRA_Testing)
 
 ## Pipeline
 
