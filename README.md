@@ -5,7 +5,21 @@ End-to-end pipeline for training and serving custom Flux.1-dev style LoRAs. Host
 - **Kodachrome (architecture)** — vintage Kodachrome photographs of buildings (postwar ranch houses, Federal rowhouses, mid-century shopping plazas, Art Deco hotels, brutalist civic buildings).
 - **Akira (anime cityscape)** — hand-painted cel-animation backgrounds in the style of Akira (dense Neo-Tokyo cityscapes, gouache rendering, restrained earth-tone palette).
 
-> [![Open in Spaces](https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/OllieEGreen/LoRA_Testing)
+[![Open in Spaces](https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/OllieEGreen/LoRA_Testing)
+
+## Sample outputs
+
+### Kodachrome (architecture)
+
+| | | |
+|---|---|---|
+| ![Thatched cottage](samples/kodachrome-thatched-cottage.jpg) | ![Modernist house](samples/kodachrome-modernist-house.jpg) | ![Roadside diner at dusk](samples/kodachrome-roadside-diner.jpg) |
+
+### Akira (anime cityscape)
+
+| | | |
+|---|---|---|
+| ![Westminster at sunset](samples/akira-westminster-sunset.jpg) | ![Westminster at night](samples/akira-westminster-night.jpg) | ![Westminster moonlit](samples/akira-westminster-moon.jpg) |
 
 ## Pipeline
 
@@ -20,6 +34,7 @@ End-to-end pipeline for training and serving custom Flux.1-dev style LoRAs. Host
 .
 ├── README.md             — this file
 ├── LICENSE               — MIT
+├── samples/              — example outputs shown above
 └── space/                — the deployable Gradio app
     ├── app.py            — entry point
     ├── config.py         — LoRA registry + defaults
