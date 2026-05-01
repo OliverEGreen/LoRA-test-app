@@ -11,7 +11,13 @@ venv/
 # macOS
 .DS_Store
 
-# Project — local-only directories (kept off GitHub)
+# Per-style experiment folders (training data, outputs, weights — kept local).
+# Everything actually shippable lives in space/.
+Akira/
+Kodachrome/
+
+# Conventional artefact subdirs in case future experiments re-introduce them
+# without being whole-folder-ignored above:
 _Generated Outputs/
 _Safetensor Weights/
 Training Data/

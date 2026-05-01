@@ -37,7 +37,7 @@ Training datasets and `.safetensors` weights are kept out of the repo — weight
 
 ## Try it
 
-Visit the [HuggingFace Space](https://huggingface.co/spaces/YOUR_USERNAME/SPACE_NAME), pick a style, type a scene, generate.
+Visit the [HuggingFace Space](https://huggingface.co/spaces/OllieEGreen/LoRA_Testing), pick a style, type a scene, generate.
 
 ## Local development
 
